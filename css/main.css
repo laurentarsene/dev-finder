@@ -99,21 +99,21 @@ img {
 .main_square .right .joined_on {
   color:rgba(255, 255, 255, 0.603);
   width: 100%;
-  margin-top: 200px;
-  margin-left: 70%;
+  margin-top: 60%;
+  margin-left: 60%;
 }
 .main_square .right .date {
   color:rgba(255, 255, 255, 0.603);
   width: 100%;
-  margin-left: 70%;
+  margin-left: 60%;
 }
 
 #shadow {
   position: absolute;
-  margin-top: 40%;
-  left:10%;
+  margin-top: 50%;
+  left:15%;
   border-radius: 50%;
-  width: 80%;
+  width: 70%;
   height: 100px;
   background: black;
   opacity: 0.7;
