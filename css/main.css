@@ -2,7 +2,7 @@
   font-family: Montserrat;
 }
 body {
-  min-height: 100vh;
+  height: 100vh;
   background: linear-gradient(143deg, rgba(4,90,64,1) 0%, rgba(4,59,90,1) 52.08%);
 }
 
@@ -51,6 +51,10 @@ img {
   display: inline-block;
 }
 
+.main_square .strings {
+  margin-top: 10%;
+}
+
 .main_square .left .text {
   margin-left: 15px;
 }
@@ -89,7 +93,7 @@ img {
 
 .main_square .right .bibliography{
   color:rgba(255, 255, 255, 0.603);
-  margin-top: 154px;
+  margin-top: 182px;
 }
 
 .main_square .right .bibliography p {
@@ -137,9 +141,11 @@ img {
     width: 100%;
   }
 
-  .main_square .left .profile_pic .strings {
-    margin-top: 5%;
+  .main_square .strings {
+    margin-top: 10%;
     text-align: center;
+    text-align: left;
+    margin-left: 10%;
   }
 
   .main_square .rigth{
