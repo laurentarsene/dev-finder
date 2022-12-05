@@ -1,0 +1,169 @@
+* {
+  font-family: Montserrat;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(143deg, rgba(4,90,64,1) 0%, rgba(4,59,90,1) 52.08%);
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+img {
+  border-radius:50%;
+}
+.left_hero {
+  width: 40%;
+  height:100%;
+  float:left;
+  color:white;
+  margin-top: 5%;
+  text-align: right;
+}
+.main_square {
+  width: 40%;
+  float:right;
+  margin-top: 5%;
+  height: 600px;
+  margin-right: 10%;
+  background: linear-gradient(232.49deg, rgba(4, 90, 64, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 50px;
+  border:1px solid rgba(255, 255, 255, 0.603);
+  padding: 50px;
+  padding-top: 40px;
+}
+
+.main_square .left .name {
+  color:white;
+  font-size: 1.5em;
+}
+
+.main_square .left {
+  width: 40%; 
+  float:left;
+  color:rgba(255, 255, 255, 0.603);
+}
+
+.icon,
+.text {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.main_square .left .text {
+  margin-left: 15px;
+}
+
+.main_square .left .profile_pic {
+  width: 100%;
+  margin-left:10%;
+}
+
+.item {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.main_square .right{
+  width: 60%;
+  height:100%;
+  float:right;
+}
+.main_square .right .col{
+  color:white;
+  font-size: 2em;
+  float:left;
+  text-align: center;
+  width:33.3%;
+  margin-top: 50px;
+}
+
+.main_square .right .col2{
+  color:rgba(255, 255, 255, 0.603);
+  float:left;
+  text-align: center;
+  width:33.3%;
+  margin-top: 0px;
+}
+
+.main_square .right .bibliography{
+  color:rgba(255, 255, 255, 0.603);
+  margin-top: 154px;
+}
+
+.main_square .right .bibliography p {
+  color:white;
+}
+
+.main_square .right .joined_on {
+  color:rgba(255, 255, 255, 0.603);
+  width: 100%;
+  margin-top: 200px;
+  margin-left: 70%;
+}
+.main_square .right .date {
+  color:rgba(255, 255, 255, 0.603);
+  width: 100%;
+  margin-left: 70%;
+}
+
+#shadow {
+  position: absolute;
+  margin-top: 40%;
+  left:10%;
+  border-radius: 50%;
+  width: 80%;
+  height: 100px;
+  background: black;
+  opacity: 0.7;
+  -webkit-filter: blur(70px);
+  -webkit-transform: scale(1, 0.2);
+}
+
+@media only screen and (max-width: 1000px){
+  .left_hero {
+    width:100%;
+    float: right;
+    margin-right: 15%;
+  }
+
+  .main_square {
+    width: 80%;
+    height:1200px;
+  }
+
+  .main_square .left{
+    width: 100%;
+  }
+
+  .main_square .left .profile_pic .strings {
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .main_square .rigth{
+    width: 100%;
+  }
+
+  p {
+    margin-left: 10%;
+  }
+
+  .main_square .right {
+    width: 100%;
+  }
+
+  .main_square .bibliography {
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .main_square .bibliography .lorem {
+    margin-left: 0%;
+  }
+
+  #shadow {
+    display: none;
+  }
+}
