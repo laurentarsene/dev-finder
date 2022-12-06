@@ -173,6 +173,16 @@ img {
     margin-left: 0%;
   }
 
+  .main_square .joined_on {
+    float:right;
+    margin-right: 40%;
+  }
+
+  .main_square .date {
+    float:right;
+    margin-right: 40%;
+  }
+
   #shadow {
     display: none;
   }
