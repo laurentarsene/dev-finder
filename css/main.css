@@ -1,3 +1,7 @@
+:root {
+  --primary_color : rgb(255, 255, 255);
+  --secondary_color : rgb(255, 255, 255, 0.603);
+}
 * {
   font-family: Montserrat;
 }
@@ -17,7 +21,7 @@ img {
   width: 40%;
   height:100%;
   float:left;
-  color:white;
+  color:var(--primary_color);
   margin-top: 5%;
   text-align: right;
 }
@@ -29,20 +33,20 @@ img {
   margin-right: 10%;
   background: linear-gradient(232.49deg, rgba(4, 90, 64, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
   border-radius: 50px;
-  border:1px solid rgba(255, 255, 255, 0.603);
+  border:1px solid var(--secondary_color);
   padding: 50px;
   padding-top: 40px;
 }
 
 .main_square .left .name {
-  color:white;
+  color:var(--primary_color);
   font-size: 1.5em;
 }
 
 .main_square .left {
   width: 40%; 
   float:left;
-  color:rgba(255, 255, 255, 0.603);
+  color:var(--secondary_color);
 }
 
 .icon,
@@ -75,7 +79,7 @@ img {
   float:right;
 }
 .main_square .right .col{
-  color:white;
+  color:var(--primary_color);
   font-size: 2em;
   float:left;
   text-align: center;
@@ -84,7 +88,7 @@ img {
 }
 
 .main_square .right .col2{
-  color:rgba(255, 255, 255, 0.603);
+  color:var(--secondary_color);
   float:left;
   text-align: center;
   width:33.3%;
@@ -92,29 +96,29 @@ img {
 }
 
 .main_square .right .bibliography{
-  color:rgba(255, 255, 255, 0.603);
+  color:var(--secondary_color);
   margin-top: 182px;
 }
 
 .main_square .right .bibliography p {
-  color:white;
+  color:var(--primary_color);
 }
 
 .main_square .right .joined_on {
-  color:rgba(255, 255, 255, 0.603);
+  color:var(--secondary_color);
   width: 100%;
   margin-top: 50%;
-  margin-left: 60%;
+  text-align: right;
 }
 .main_square .right .date {
-  color:rgba(255, 255, 255, 0.603);
+  color:var(--secondary_color);
   width: 100%;
-  margin-left: 60%;
+  text-align: right;
 }
 
 #shadow {
   position: absolute;
-  margin-top: 50%;
+  margin-top: 70vh;
   left:15%;
   border-radius: 50%;
   width: 70%;

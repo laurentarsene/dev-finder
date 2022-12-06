@@ -107,10 +107,10 @@ form.addEventListener('submit',function(e){
             Not available
             `
         } else {
-            document.getElementById("created_at").innerHTML = `
-            ${data.created_at}
-            `
+            var date = `${data.created_at}`.slice(0,10)
+            document.getElementById("created_at").innerHTML = date
         }
+        console.log(date)
 
     })
 })
